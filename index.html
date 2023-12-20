@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <nav class="nav-extended">
+        <div class="container">
+            <div class="nav-wrapper row">
+                <div class="col s2 m1">
+                    <img class="circle responsive-img" src="images/CAFÉ.jpeg">
+                    <a href="#" class="brand-logo">CAFÉ DU MONDE</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Nouvelles</a></li>
+                    <li><a href="badges.html">Musique</a></li>
+                    <li><a href="collapsible.html">Localisation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Nouvelles</a></li>
+        <li><a href="badges.html">Musique</a></li>
+        <li><a href="collapsible.html">Localisation</a></li>
+    </ul>
+
+    </br>
+
+    <div class="container">
+        <h3 class="card-title">NOUVEAUX CAFÉ</h3>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pexels-pixabay-414551.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p>Petite pause au bureau</p>
+                        <span class="card-title">Le détente Café</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pexels-chevanon-photography-302901.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p>Petite italie</p>
+                        <span class="card-title">Le I Café</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h4 class="card-title">CAFÉ RÉCENT</h4>
+        <div class="row">
+            <div class="col s10 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pexels-roman-odintsov-4552976.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p>Trois différentes mignardises.</p>
+                        <span class="card-title">Le Café gourmand</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s10 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pexels-maria-orlova-4946701.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p>Idéal pour un réveil en douceure</p>
+                        <span class="card-title">Le Café M</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s10 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pexels-pixabay-433134.jpg">
+                    </div>
+                    <div class="card-content">
+                        <p>Pour un sommeil sans encombre</p>
+                        <span class="card-title">Le D Café</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.sidenav').sidenav();
+
+        });
+
+    </script>
+    
+</body>
+
+</html>
